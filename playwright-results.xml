@@ -1,0 +1,12 @@
+<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="15.490962999999999">
+<testsuite name="smoke.spec.ts" timestamp="2025-09-03T22:24:17.014Z" hostname="Chromium" tests="4" failures="0" skipped="0" time="2.732" errors="0">
+<testcase name="smokes › loads unified home (Win95 Suite)" classname="smoke.spec.ts" time="0.908">
+</testcase>
+<testcase name="smokes › router settings render without crashing" classname="smoke.spec.ts" time="0.497">
+</testcase>
+<testcase name="smokes › discourse page shows login CTA when unauthenticated" classname="smoke.spec.ts" time="0.583">
+</testcase>
+<testcase name="smokes › discourse latest renders when authenticated, logout works (mocked)" classname="smoke.spec.ts" time="0.744">
+</testcase>
+</testsuite>
+</testsuites>

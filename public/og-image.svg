@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00eaff"/>
+      <stop offset="100%" stop-color="#ff00ff"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00eaff"/>
+      <stop offset="100%" stop-color="#ff00ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="600" fill="#000"/>
+
+  <!-- Vaporwave Grid -->
+  <g stroke="#ff00ff" stroke-width="2">
+    <line x1="0" y1="550" x2="1600" y2="550"/>
+    <line x1="0" y1="500" x2="1600" y2="500"/>
+    <line x1="0" y1="450" x2="1600" y2="450"/>
+    <line x1="0" y1="400" x2="1600" y2="400"/>
+    <line x1="0" y1="350" x2="1600" y2="350"/>
+    <!-- Vertical perspective lines -->
+    <line x1="200" y1="350" x2="800" y2="600"/>
+    <line x1="400" y1="350" x2="800" y2="600"/>
+    <line x1="600" y1="350" x2="800" y2="600"/>
+    <line x1="1000" y1="350" x2="800" y2="600"/>
+    <line x1="1200" y1="350" x2="800" y2="600"/>
+    <line x1="1400" y1="350" x2="800" y2="600"/>
+  </g>
+
+  <!-- Logo (Geometric Symbol) -->
+  <g transform="translate(200,200) scale(1.5)">
+    <!-- Three overlapping circles -->
+    <circle cx="0" cy="-80" r="80" fill="#9b5de5" stroke="url(#neon)" stroke-width="8"/>
+    <circle cx="-70" cy="40" r="80" fill="#9b5de5" stroke="url(#neon)" stroke-width="8"/>
+    <circle cx="70" cy="40" r="80" fill="#9b5de5" stroke="url(#neon)" stroke-width="8"/>
+    <!-- Diamond -->
+    <rect x="-60" y="-60" width="120" height="120" transform="rotate(45)" fill="none" stroke="url(#neon)" stroke-width="8"/>
+    <!-- Inner square -->
+    <rect x="-30" y="-30" width="60" height="60" fill="#9b5de5"/>
+  </g>
+
+  <!-- Brand Text -->
+  <text x="500" y="220" font-family="JetBrains Mono, monospace" font-size="90" font-weight="bold" fill="url(#textGradient)">
+    SEMANTIC
+  </text>
+  <text x="500" y="320" font-family="JetBrains Mono, monospace" font-size="90" font-weight="bold" fill="url(#textGradient)">
+    FLOW
+  </text>
+
+  <!-- Tagline -->
+  <text x="500" y="420" font-family="JetBrains Mono, monospace" font-size="38" fill="#cccccc">
+    Open-source Context Engineering Engine for AI
+  </text>
+</svg>
